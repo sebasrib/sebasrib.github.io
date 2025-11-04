@@ -12,7 +12,7 @@ cv:
   sections:
     About me:
       - Backend Developer with experience in designing, implementing, and maintaining scalable systems, with a strong focus on reliability and performance.
-      - Skilled in Node.js, TypeScript, Java, and Python, with experience in microservices, RESTful APIs, GraphQL, Keycloak and database integrations (SQL & NoSQL).
+      - Skilled in Node.js, TypeScript, Java, and Python, RESTful APIs, GraphQL, Keycloak and database integrations (SQL & NoSQL).
       - Proven track record of contributing to critical projects for large-scale enterprises, including telecommunications systems serving millions of users.
       - Good analytical background with experience in data analysis and decision-making support during Brazil’s national census.
       - Passionate about continuous learning, problem-solving, and building solutions that bridge technology and real-world needs.
@@ -58,10 +58,12 @@ cv:
           - Analyzed statistical data and oversaw data collection processes at IBGE, Brazil’s official statistics agency responsible for censuses and large-scale surveys
           - Interpreted datasets, and identified demographic trends to provide actionable insights supporting decision-making and public policy development
     skills:
-      - label: Programming
-        details: Proficient with Node.js, React, Typescript, JavaScript, Java, Spring Boot, Keycloak, PostgreSQL, Web3, Cryptocurrencies, Backend, Microservices, GNU/Linux, AWS, Azure; good understanding of Web, app development, DevOps, and CLI
+      - label: Technologies
+        details: Node.js, React, Typescript, Javascript, Java, Nest.js, Express.js, Koa, Spring Boot, Keycloak, PostgreSQL, MongoDB, Redis, Web3, GNU/Linux, AWS, Azure, Oracle. Good understanding of Microservices, Functional Programming, Clean Architecture, Web Applications, Cryptocurrencies, DevOps, and CLI
       - label: Languages
-        details: 'English (B2), Portuguese (native)'
+        details: English (B2), Portuguese (native)
+      - label: Relevant Certifications
+        details: AWS Certified Cloud Practitioner, OCI Certified Developer Professional
 design:
   theme: engineeringresumes
   page:
