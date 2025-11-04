@@ -71,7 +71,7 @@ design:
     left_margin: 2cm
     right_margin: 2cm
     show_page_numbering: false
-    show_last_updated_date: true
+    show_last_updated_date: false
   colors:
     text: rgb(0, 0, 0)
     name: rgb(0, 0, 0)
