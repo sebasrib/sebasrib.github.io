@@ -12,20 +12,10 @@ cv:
   sections:
     About me:
       - Backend Developer with experience in designing, implementing, and maintaining scalable systems, with a strong focus on reliability and performance.
-      - Skilled in Node.js, TypeScript, Java, and Python, RESTful APIs, GraphQL, Keycloak and database integrations (SQL & NoSQL).
+      - Skilled in Node.js, TypeScript, Java, Python, RESTful APIs, GraphQL, Keycloak, OAuth, OpenID Connect, SQL, NoSQL.
       - Proven track record of contributing to critical projects for large-scale enterprises, including telecommunications systems serving millions of users.
-      - Good analytical background with experience in data analysis and decision-making support during Brazil’s national census.
-      - Passionate about continuous learning, problem-solving, and building solutions that bridge technology and real-world needs.
-    education:
-      - institution: Centro Universitário Internacional
-        area: Software Engineering
-        degree: BS
-        date:
-        start_date: 2022-04
-        end_date: 2026-04
-        location: Araraquara, São Paulo
-        summary:
-        highlights:
+      - Good analytical background with experience in data analysis and decision-making support during Brazil's national census.
+      - Driven by continuous learning, problem-solving, and building solutions that bridge technology and real-world needs.
     experience:
       - company: Compass UOL
         position: Software Engineer
@@ -35,8 +25,8 @@ cv:
         location: São Paulo, SP, Brazil
         summary:
         highlights:
-          - Developed and maintained critical systems for Vivo (Telefónica), one of Brazil’s largest telecommunications companies with over 100 million customers
-          - Designed, implemented, and optimized backend solutions supporting Vivo’s network infrastructure and digital services
+          - Developed and maintained critical systems for Vivo (Telefónica), one of Brazil's largest telecommunications companies with over 100 million customers
+          - Designed, implemented, and optimized backend solutions supporting Vivo's network infrastructure and digital services
       - company: Compass UOL
         position: Software Engineer Intern
         date:
@@ -55,8 +45,18 @@ cv:
         location: Araraquara, SP, Brazil
         summary:
         highlights:
-          - Analyzed statistical data and oversaw data collection processes at IBGE, Brazil’s official statistics agency responsible for censuses and large-scale surveys
+          - Analyzed statistical data and oversaw data collection processes at IBGE, Brazil's official statistics agency responsible for censuses and large-scale surveys
           - Interpreted datasets, and identified demographic trends to provide actionable insights supporting decision-making and public policy development
+    education:
+      - institution: Centro Universitário Internacional
+        area: Software Engineering
+        degree: BS
+        date:
+        start_date: 2022-04
+        end_date: 2026-04
+        location: Araraquara, SP, Brazil
+        summary:
+        highlights:
     skills:
       - label: Technologies
         details: Node.js, React, Typescript, Javascript, Java, Nest.js, Express.js, Koa, Spring Boot, Keycloak, PostgreSQL, MongoDB, Redis, Web3, GNU/Linux, AWS, Azure, Oracle. Good understanding of Microservices, Functional Programming, Clean Architecture, Web Applications, Cryptocurrencies, DevOps, and CLI
