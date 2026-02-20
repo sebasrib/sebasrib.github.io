@@ -1,23 +1,19 @@
 cv:
   name: Sebastião Ribeiro
-  location: São Paulo, Brazil
+  location: São Paulo, SP, Brazil
   email: me@sebastiao.me
   phone: +55-17-9-9645-7741
-  website:
+  website: https://sebastiao.me
   social_networks:
     - network: LinkedIn
       username: sebasrib
     - network: GitHub
       username: sebasrib
   sections:
-    About me:
-      - Backend Developer with experience in designing, implementing, and maintaining scalable systems, with a strong focus on reliability and performance.
-      - Skilled in Node.js, TypeScript, Java, Python, RESTful APIs, GraphQL, Keycloak, OAuth, OpenID Connect, SQL, NoSQL.
-      - Proven track record of contributing to critical projects for large-scale enterprises, including telecommunications systems serving millions of users.
-      - Good analytical background with experience in data analysis and decision-making support during Brazil's national census.
-      - Driven by continuous learning, problem-solving, and building solutions that bridge technology and real-world needs.
+    summary:
+      - Engineer with a proven track record of delivering **high-availability solutions** for **100M+ users (Vivo Telefónica)**. Expertise in **Node.js**, **Java**, and **Python**, with a specialized focus on **Microsservices**, **IAM (Keycloak, OAuth, OIDC)** and cloud architecture **(AWS and OCI Certified)**. Combines a strong **analytical foundation** - including data decision-making for **Brazil's National Census** - with a drive to bridge complex backend architecture and business growth.
     experience:
-      - company: Compass UOL
+      - company: AI/R Company - Vivo Telefónica
         position: Software Engineer
         date:
         start_date: 2024-03
@@ -25,9 +21,12 @@ cv:
         location: São Paulo, SP, Brazil
         summary:
         highlights:
-          - Developed and maintained critical systems for Vivo (Telefónica), one of Brazil's largest telecommunications companies with over 100 million customers
-          - Designed, implemented, and optimized backend solutions supporting Vivo's network infrastructure and digital services
-      - company: Compass UOL
+          - Developed and maintained critical **Java** and **Node.js** microservices for **Vivo (Telefónica)**, one of Brazil's **largest** telecommunications companies with over **100M customers**
+          - Architected scalable **RESTful APIs** with **automated tests** that supported increase in digital transaction volume without performance degradation
+          - Integrated and extended secure authentication flows using **Keycloak (OAuth2 and OIDC)** to support a 100M+ user identity ecosystem. Developed custom access control that **blocked unauthorized access attempts**
+          - Developed scalable data solutions using **MongoDB** and **Redis** to manage high-traffic data and persistent storage
+          - Developed and integrated cloud and on-premise solutions, including **Git, Kafka, Grafana, OpenTelemetry, Kubernetes, and Azure Blob Storage**, to enhance system observability and delivery
+      - company: AI/R Company
         position: Software Engineer Intern
         date:
         start_date: 2023-03
@@ -35,9 +34,10 @@ cv:
         location: São Paulo, SP, Brazil
         summary:
         highlights:
-          - Assisted in designing and implementing backend features, debugging issues, and optimizing performance under the guidance of engineers
-          - Contributed to the development of RESTful APIs and database integrations, ensuring reliable data flow and supporting new feature delivery
-      - company: Brazilian Institute of Geography and Statistics - IBGE
+          - Learned the **development lifecycle** of distributed services to develop backend features in **Node.js (Nest.js)**, ensuring they met production standards
+          - Assisted the engineering team in improving data flow reliability by developing integration layers for **PostgreSQL** and **Redis**, learning to optimize query performance for production environments
+          - Learned enterprise **software development patterns** by assisting senior engineers in the technical design discussions
+      - company: Brazilian Institute of Geography and Statistics (IBGE)
         position: Census Data Analyst
         date:
         start_date: 2022-06
@@ -45,8 +45,8 @@ cv:
         location: Araraquara, SP, Brazil
         summary:
         highlights:
-          - Analyzed statistical data and oversaw data collection processes at IBGE, Brazil's official statistics agency responsible for censuses and large-scale surveys
-          - Interpreted datasets, and identified demographic trends to provide actionable insights supporting decision-making and public policy development
+          - Automated data validation processes for the **National Census** using analytical tools, ensuring 99%+ data integrity across demographic datasets
+          - Interpreted complex datasets to **support national-level decision-making** and **public policy development** through precise statistical reporting
     education:
       - institution: Centro Universitário Internacional
         area: Software Engineering
@@ -58,153 +58,22 @@ cv:
         summary:
         highlights:
     skills:
-      - label: Technologies
-        details: Node.js, React, Typescript, Javascript, Java, Nest.js, Express.js, Koa, Spring Boot, Keycloak, PostgreSQL, MongoDB, Redis, Web3, GNU/Linux, AWS, Azure, Oracle. Good understanding of Microservices, Functional Programming, Clean Architecture, Web Applications, Cryptocurrencies, DevOps, and CLI
-      - label: Languages
+      - label: Natural Languages
         details: English (B2), Portuguese (native)
-      - label: Relevant Certifications
-        details: AWS Certified Cloud Practitioner, OCI Certified Developer Professional
+      - label: Programming Languages
+        details: Typescript, Java, Javascript, Python, a little bit of Haskell
+      - label: Frameworks & Runtimes
+        details: Nest.js, React.js, Spring Boot, Express, Koa, Apollo, Node.js
+      - label: Security & IAM
+        details: Keycloak, OAuth2, OpenID Connect (OIDC), Open Policy Agent (OPA)
+      - label: Data & Storage
+        details: PostgreSQL, MongoDB, MySQL, AWS S3, Azure Blob Storage, Redis, Valkey
+      - label: Architecture & Patterns
+        details: Microservices, DDD (Domain-Driven Design), Clean Architecture, RESTful APIs, Functional Programming
+      - label: Certifications
+        details: AWS Certified Cloud Practitioner, OCI Certified Developer Professional, OCI Certified Data Science Professional, OCI Certified Generative AI Professional
+  sort_entries: none
 design:
   theme: engineeringresumes
-  page:
-    size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: false
-    show_last_updated_date: false
-  colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
-    connections: rgb(0, 0, 0)
-    section_titles: rgb(0, 0, 0)
-    links: rgb(0, 0, 0)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
-  text:
-    font_family: XCharter
-    font_size: 10pt
-    leading: 0.6em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: true
-    use_external_link_icon: false
-  header:
-    name_font_family: XCharter
-    name_font_size: 25pt
-    name_bold: false
-    small_caps_for_name: false
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
-    horizontal_space_between_connections: 0.5cm
-    connections_font_family: XCharter
-    separator_between_connections: "|"
-    use_icons_for_connections: false
-    use_urls_as_placeholders_for_connections: true
-    make_connections_links: true
-    alignment: center
-  section_titles:
-    type: with-full-line
-    font_family: XCharter
-    font_size: 1.2em
-    bold: true
-    small_caps: false
-    line_thickness: 0.5pt
-    vertical_space_above: 0.55cm
-    vertical_space_below: 0.3cm
-  entries:
-    date_and_location_width: 4.15cm
-    left_and_right_margin: 0cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.4cm
-    allow_page_break_in_sections: true
-    allow_page_break_in_entries: true
-    short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: •
-    nested_bullet: "-"
-    top_margin: 0.25cm
-    left_margin: 0cm
-    vertical_space_between_highlights: 0.19cm
-    horizontal_space_between_bullet_and_highlight: 0.3em
-    summary_left_margin: 0cm
-  entry_types:
-    one_line_entry:
-      template: "**LABEL:** DETAILS"
-    education_entry:
-      main_column_first_row_template: "**INSTITUTION**, DEGREE in AREA -- LOCATION"
-      degree_column_template:
-      degree_column_width: 1cm
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
-    normal_entry:
-      main_column_first_row_template: "**NAME** -- **LOCATION**"
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
-    experience_entry:
-      main_column_first_row_template: "**POSITION**, COMPANY -- LOCATION"
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
-    publication_entry:
-      main_column_first_row_template: "**TITLE**"
-      main_column_second_row_template: |-
-        AUTHORS
-        URL (JOURNAL)
-      main_column_second_row_without_journal_template: |-
-        AUTHORS
-        URL
-      main_column_second_row_without_url_template: |-
-        AUTHORS
-        JOURNAL
-      date_and_location_column_template: DATE
-locale:
-  language: en
-  phone_number_format: national
-  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
-  date_template: MONTH_ABBREVIATION YEAR
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  to: –
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
-    - Nov
-    - Dec
-  full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
-rendercv_settings:
-  date: "2025-10-28"
-  bold_keywords: []
-  sort_entries: none
+  templates:
+    top_note: ""
