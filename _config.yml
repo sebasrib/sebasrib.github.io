@@ -1,2 +1,3 @@
-name: ""
-title: null
+remote_theme: pages-themes/architect # Or whichever theme you were using
+plugins:
+  - jekyll-seo-tag
