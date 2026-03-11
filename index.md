@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sebastiao Ribeiro | Website"
+title: "Website"
 permalink: /
 ---
 

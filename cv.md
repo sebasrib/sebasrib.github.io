@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sebastiao Ribeiro | Resume"
+title: "Resume"
 permalink: /cv
 description: >-
   Software Engineer delivering high-availability solutions. 
