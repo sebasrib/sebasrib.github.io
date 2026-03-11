@@ -1,5 +1,19 @@
 name: ""
-title: null
-remote_theme: pages-themes/hacker # Or whichever theme you were using
+title: Sebastiao Ribeiro
+tagline: Software Engineer
+description: >-
+  Engineer delivering high-availability solutions for Vivo Telefónica. 
+  Expertise in Node.js, Java, IAM (Keycloak), and Cloud Architecture (AWS/OCI Certified). 
+url: "https://sebastiao.me"
+remote_theme: pages-themes/hacker
+author: Sebastiao Ribeiro
+locale: en_US
+plugins:
+  - jekyll-seo-tag
+social:
+  name: Sebastiao Ribeiro
+  links:
+    - https://www.linkedin.com/in/sebasrib
+    - https://github.com/sebasrib
 plugins:
   - jekyll-seo-tag
