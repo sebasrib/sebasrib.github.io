@@ -1,6 +1,12 @@
 ---
-permalink: /
+layout: default
+title: "Sebastiao Ribeiro | Resume"
+permalink: /cv
+description: >-
+  Software Engineer delivering high-availability solutions. 
+  Expertise in Node.js, React, Java, IAM (Keycloak), and Cloud Architecture (AWS/OCI Certified).
 ---
+
 # Sebastiao Ribeiro
 
 - Phone: +55 17 99645 7741
@@ -10,11 +16,12 @@ permalink: /
 - LinkedIn: [sebasrib](https://linkedin.com/in/sebasrib)
 - GitHub: [sebasrib](https://github.com/sebasrib)
 
-
 # Summary
-Software Engineer with a proven track record of delivering **high-availability solutions** for **100M+ users (Vivo Telefónica)**. Expertise in **Node.js**, **Java**, and **Python**, with a specialized focus on **Microsservices**, **IAM (Keycloak, OAuth, OIDC)** and cloud architecture **(AWS and OCI Certified)**. Combines a strong **analytical foundation** - including data decision-making for **Brazil's National Census** - with a drive to bridge complex backend architecture and business growth.
+
+Software Engineer with a proven track record of delivering **high-availability solutions** for **100M+ users**. Expertise in **Node.js**, **Java**, and **Python**, with a specialized focus on **Microsservices**, **IAM (Keycloak, OAuth, OIDC)** and cloud architecture **(AWS and OCI Certified)**. Combines a strong **analytical foundation** - including data decision-making for **Brazil's National Census** - with a drive to bridge complex backend architecture and business growth.
 
 # Experience
+
 ## **Software Engineer**, AI/R Company - Vivo Telefónica -- São Paulo, SP, Brazil
 
 Mar 2024 – present
@@ -29,8 +36,6 @@ Mar 2024 – present
 
 - Developed and integrated cloud and on-premise solutions, including **Git, Kafka, Grafana, OpenTelemetry, Kubernetes, and Azure Blob Storage**, to enhance system observability and delivery
 
-
-
 ## **Software Engineer Intern**, AI/R Company -- São Paulo, SP, Brazil
 
 Mar 2023 – Dec 2023
@@ -41,8 +46,6 @@ Mar 2023 – Dec 2023
 
 - Learned enterprise **software development patterns** by assisting senior engineers in the technical design discussions
 
-
-
 ## **Census Data Analyst**, Brazilian Institute of Geography and Statistics (IBGE) -- Araraquara, SP, Brazil
 
 June 2022 – Dec 2022
@@ -51,14 +54,12 @@ June 2022 – Dec 2022
 
 - Interpreted complex datasets to **support national-level decision-making** and **public policy development** through precise statistical reporting
 
-
-
 # Education
+
 ## **Centro Universitário Internacional**, BS in Software Engineering -- Araraquara, SP, BrazilApr 2022 – Apr 2026
 
-
-
 # Skills
+
 **Natural Languages:** English (B2), Portuguese (native)
 
 **Programming Languages:** Typescript, Java, Javascript, Python, a little bit of Haskell
