@@ -1,3 +1,7 @@
+---
+title: "Sebastiao Ribeiro | Software Engineer"
+description: "Software Engineer at Vivo Telefónica (100M+ users). Expertise in Node.js, Java, IAM, and Cloud Architecture (AWS/OCI Certified)."
+---
 # Sebastiao Ribeiro
 
 - Phone: +55 17 99645 7741
