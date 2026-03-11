@@ -9,7 +9,7 @@
 
 
 # Summary
-Engineer with a proven track record of delivering **high-availability solutions** for **100M+ users (Vivo Telefónica)**. Expertise in **Node.js**, **Java**, and **Python**, with a specialized focus on **Microsservices**, **IAM (Keycloak, OAuth, OIDC)** and cloud architecture **(AWS and OCI Certified)**. Combines a strong **analytical foundation** - including data decision-making for **Brazil's National Census** - with a drive to bridge complex backend architecture and business growth.
+Software Engineer with a proven track record of delivering **high-availability solutions** for **100M+ users (Vivo Telefónica)**. Expertise in **Node.js**, **Java**, and **Python**, with a specialized focus on **Microsservices**, **IAM (Keycloak, OAuth, OIDC)** and cloud architecture **(AWS and OCI Certified)**. Combines a strong **analytical foundation** - including data decision-making for **Brazil's National Census** - with a drive to bridge complex backend architecture and business growth.
 
 # Experience
 ## **Software Engineer**, AI/R Company - Vivo Telefónica -- São Paulo, SP, Brazil
