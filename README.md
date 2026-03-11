@@ -1,6 +1,5 @@
 ---
 title: Sebastiao Ribeiro | Software Engineer
-description: "Engineer delivering high-availability solutions for 100M+ users..."
 permalink: /
 ---
 # Sebastiao Ribeiro
