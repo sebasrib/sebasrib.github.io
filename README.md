@@ -1,5 +1,4 @@
 ---
-title: Sebastiao Ribeiro | Software Engineer
 permalink: /
 ---
 # Sebastiao Ribeiro
