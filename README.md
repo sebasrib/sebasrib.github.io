@@ -1,4 +1,4 @@
-# Sebastião Ribeiro's CV
+# Sebastiao Ribeiro
 
 - Phone: +55 17 99645 7741
 - Email: [me@sebastiao.me](mailto:me@sebastiao.me)
