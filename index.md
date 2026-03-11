@@ -1,14 +1,33 @@
 ---
 layout: default
-title: "Sebastiao Ribeiro | Blog"
+title: "Sebastiao Ribeiro | Website"
 permalink: /
+---
+
+[**View Full Resume**](/cv) • [**LinkedIn**](https://linkedin.com/in/sebasrib) • [**GitHub**](https://github.com/sebasrib)
+
 ---
 
 ## Latest Technical Insights
 
+{% if site.posts.size > 0 %}
 {% for post in site.posts %}
 
 ### [{{ post.title }}]({{ post.url }})
 
-_{{ post.date | date_to_string }}_ - {{ post.excerpt | strip_html | truncate: 150 }}
+_Published on {{ post.date | date: "%B %d, %Y" }}_
+
+{{ post.description | default: post.excerpt | strip_html | truncate: 160 }}
+
+[Read full article]({{ post.url }})
+
+---
+
 {% endfor %}
+{% else %}
+No posts yet.
+{% endif %}
+
+---
+
+[me@sebastiao.me](mailto:me@sebastiao.me)
