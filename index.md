@@ -4,7 +4,7 @@ title: "Website"
 permalink: /
 ---
 
-[**View Full Resume**](/cv) • [**LinkedIn**](https://linkedin.com/in/sebasrib) • [**GitHub**](https://github.com/sebasrib)
+[**Resume (EN)**](/cv) • [**Currículo (PT-BR)**](/cv-pt) • [**LinkedIn**](https://linkedin.com/in/sebasrib) • [**GitHub**](https://github.com/sebasrib)
 
 ---
 

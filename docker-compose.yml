@@ -1,0 +1,50 @@
+services:
+  rendercv-en:
+    image: python:3.12-slim
+    working_dir: /srv/jekyll
+    volumes:
+      - .:/srv/jekyll
+    command: >
+      sh -lc '
+      python -m pip install --no-cache-dir rendercv[full] >/dev/null &&
+      python -m rendercv render cv-en.yaml --markdown-path _includes/cv-en-body.md --dont-generate-html --dont-generate-typst --dont-generate-pdf --dont-generate-png --quiet &&
+      python -m rendercv render cv-en.yaml --markdown-path _includes/cv-en-body.md --dont-generate-html --dont-generate-typst --dont-generate-pdf --dont-generate-png --watch
+      '
+    stdin_open: true
+    tty: true
+
+  rendercv-pt:
+    image: python:3.12-slim
+    working_dir: /srv/jekyll
+    volumes:
+      - .:/srv/jekyll
+    command: >
+      sh -lc '
+      python -m pip install --no-cache-dir rendercv[full] >/dev/null &&
+      python -m rendercv render cv-pt.yaml --markdown-path _includes/cv-pt-body.md --dont-generate-html --dont-generate-typst --dont-generate-pdf --dont-generate-png --quiet &&
+      python -m rendercv render cv-pt.yaml --markdown-path _includes/cv-pt-body.md --dont-generate-html --dont-generate-typst --dont-generate-pdf --dont-generate-png --watch
+      '
+    stdin_open: true
+    tty: true
+
+  site:
+    image: jekyll/jekyll:pages
+    working_dir: /srv/jekyll
+    depends_on:
+      - rendercv-en
+      - rendercv-pt
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      PAGES_REPO_NWO: sebasrib/sebasrib.github.io
+    command: >
+      sh -lc '
+      git config --global --add safe.directory /srv/jekyll &&
+      if ! gem list -i webrick >/dev/null 2>&1; then gem install webrick --no-document >/dev/null; fi &&
+      jekyll serve --host 0.0.0.0 --livereload --destination /tmp/_site
+      '
+    stdin_open: true
+    tty: true

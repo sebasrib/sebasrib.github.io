@@ -1,0 +1,8 @@
+{% if page.canonical_url %}
+<link rel="canonical" href="{{ page.canonical_url }}">
+{% endif %}
+{% if page.alternate_links %}
+{% for link in page.alternate_links %}
+<link rel="alternate" hreflang="{{ link.hreflang }}" href="{{ link.href }}">
+{% endfor %}
+{% endif %}

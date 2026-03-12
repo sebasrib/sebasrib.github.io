@@ -4,8 +4,9 @@ tagline: Software Engineer
 url: "https://sebastiao.me"
 remote_theme: pages-themes/hacker
 author: Sebastiao Ribeiro
+github:
+  is_project_page: false
 locale: en_US
-google_site_verification: XXXXXXXXXXXXXXX
 social:
   name: Sebastiao Ribeiro
   links:

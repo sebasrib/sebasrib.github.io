@@ -1,0 +1,78 @@
+cv:
+  name: Sebastiao Ribeiro
+  location: São Paulo, SP, Brasil
+  email: me@sebastiao.me
+  phone: +55-17-9-9645-7741
+  website: https://sebastiao.me
+  social_networks:
+    - network: LinkedIn
+      username: sebasrib
+    - network: GitHub
+      username: sebasrib
+  sections:
+    summary:
+      - Engenheiro de Software com **experiência** na entrega de soluções de **alta disponibilidade** para **100M+ usuários**. Experiência em **Node.js**, **Java** e **Python**, com foco especializado em **Microsserviços**, **IAM (Keycloak, OAuth, OIDC)** e arquitetura em nuvem **(certificações AWS e OCI)**. Combina uma forte base **analítica** — incluindo apoio à tomada de decisão com dados do **Censo Nacional do Brasil** — com o objetivo de conectar arquitetura backend complexa ao crescimento do negócio.
+    experience:
+      - company: AI/R Company - Vivo Telefónica
+        position: Engenheiro de Software
+        date:
+        start_date: 2024-03
+        end_date:
+        location: São Paulo, SP, Brasil
+        summary:
+        highlights:
+          - Desenvolveu e manteve microserviços críticos em **Java** e **Node.js** para a **Vivo (Telefónica)**, uma das maiores empresas de telecomunicações do Brasil, com mais de **100M clientes**
+          - Projetou **APIs RESTful** escaláveis com **testes automatizados**, sustentando o aumento do volume de transações digitais sem degradação de desempenho
+          - Integrou e estendeu fluxos seguros de autenticação com **Keycloak (OAuth2 e OIDC)** para dar suporte a um ecossistema de identidade com 100M+ usuários. Desenvolveu controles de acesso customizados que **bloquearam tentativas de acesso não autorizado**
+          - Desenvolveu soluções de dados escaláveis usando **MongoDB** e **Redis** para gerenciar dados de alto tráfego e armazenamento persistente
+          - Desenvolveu e integrou soluções em nuvem e on-premise, incluindo **Git, Kafka, Grafana, OpenTelemetry, Kubernetes e Azure Blob Storage**, para aprimorar observabilidade e entrega de sistemas
+      - company: AI/R Company
+        position: Estagiário de Engenharia de Software
+        date:
+        start_date: 2023-03
+        end_date: 2023-12
+        location: São Paulo, SP, Brasil
+        summary:
+        highlights:
+          - Aprendeu o **ciclo de desenvolvimento** de serviços distribuídos para desenvolver funcionalidades backend em **Node.js (Nest.js)**, garantindo aderência aos padrões de produção
+          - Auxiliou a equipe de engenharia na melhoria da confiabilidade do fluxo de dados, desenvolvendo camadas de integração para **PostgreSQL** e **Redis**, e aprendendo a otimizar consultas para ambientes produtivos
+          - Aprendeu **padrões de desenvolvimento de software corporativo** ao apoiar engenheiros seniores em discussões de desenho técnico
+      - company: Instituto Brasileiro de Geografia e Estatística (IBGE)
+        position: Analista de Dados do Censo
+        date:
+        start_date: 2022-06
+        end_date: 2022-12
+        location: Araraquara, SP, Brasil
+        summary:
+        highlights:
+          - Automatizou processos de validação de dados para o **Censo Nacional** com ferramentas analíticas, garantindo mais de 99% de integridade em conjuntos de dados demográficos
+          - Interpretou conjuntos de dados complexos para **apoiar decisões em nível nacional** e o **desenvolvimento de políticas públicas** por meio de relatórios estatísticos precisos
+    education:
+      - institution: Centro Universitário Internacional
+        area: Engenharia de Software
+        degree: Bacharelado
+        date:
+        start_date: 2022-04
+        end_date: 2026-04
+        location: Araraquara, SP, Brasil
+        summary:
+        highlights:
+    skills:
+      - label: Idiomas
+        details: Inglês (B2), Português (nativo)
+      - label: Linguagens de Programação
+        details: Typescript, Java, Javascript, Python, um pouco de Haskell
+      - label: Frameworks e Runtimes
+        details: Nest.js, React.js, Spring Boot, Express, Koa, Apollo, Node.js
+      - label: Segurança e IAM
+        details: Keycloak, OAuth2, OpenID Connect (OIDC), Open Policy Agent (OPA)
+      - label: Dados e Armazenamento
+        details: PostgreSQL, MongoDB, MySQL, AWS S3, Azure Blob Storage, Redis, Valkey
+      - label: Arquitetura e Padrões
+        details: Microsserviços, DDD (Domain-Driven Design), Clean Architecture, APIs RESTful, Programação Funcional
+      - label: Certificações
+        details: AWS Certified Cloud Practitioner, OCI Certified Developer Professional, OCI Certified Data Science Professional, OCI Certified Generative AI Professional
+design:
+  theme: engineeringresumes
+  templates:
+    top_note: ""

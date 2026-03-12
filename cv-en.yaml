@@ -72,7 +72,6 @@ cv:
         details: Microservices, DDD (Domain-Driven Design), Clean Architecture, RESTful APIs, Functional Programming
       - label: Certifications
         details: AWS Certified Cloud Practitioner, OCI Certified Developer Professional, OCI Certified Data Science Professional, OCI Certified Generative AI Professional
-  sort_entries: none
 design:
   theme: engineeringresumes
   templates:
