@@ -1,5 +1,3 @@
-# Sebastiao Ribeiro's CV
-
 - Phone: +55 17 99645 7741
 - Email: [me@sebastiao.me](mailto:me@sebastiao.me)
 - Location: São Paulo, SP, Brazil
