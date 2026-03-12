@@ -1,3 +1,5 @@
+# Sebastiao Ribeiro's CV
+
 - Phone: +55 17 99645 7741
 - Email: [me@sebastiao.me](mailto:me@sebastiao.me)
 - Location: São Paulo, SP, Brasil
@@ -6,13 +8,13 @@
 - GitHub: [sebasrib](https://github.com/sebasrib)
 
 
-# Summary
+# Resumo
 Engenheiro de Software com **experiência** na entrega de soluções de **alta disponibilidade** para **100M+ usuários**. Experiência em **Node.js**, **Java** e **Python**, com foco especializado em **Microsserviços**, **IAM (Keycloak, OAuth, OIDC)** e arquitetura em nuvem **(certificações AWS e OCI)**. Combina uma forte base **analítica** — incluindo apoio à tomada de decisão com dados do **Censo Nacional do Brasil** — com o objetivo de conectar arquitetura backend complexa ao crescimento do negócio.
 
-# Experience
+# Experiência
 ## **Engenheiro de Software**, AI/R Company - Vivo Telefónica -- São Paulo, SP, Brasil
 
-Mar 2024 – present
+Mar 2024 – presente
 
 - Desenvolveu e manteve microserviços críticos em **Java** e **Node.js** para a **Vivo (Telefónica)**, uma das maiores empresas de telecomunicações do Brasil, com mais de **100M clientes**
 
@@ -28,7 +30,7 @@ Mar 2024 – present
 
 ## **Estagiário de Engenharia de Software**, AI/R Company -- São Paulo, SP, Brasil
 
-Mar 2023 – Dec 2023
+Mar 2023 – Dez 2023
 
 - Aprendeu o **ciclo de desenvolvimento** de serviços distribuídos para desenvolver funcionalidades backend em **Node.js (Nest.js)**, garantindo aderência aos padrões de produção
 
@@ -40,7 +42,7 @@ Mar 2023 – Dec 2023
 
 ## **Analista de Dados do Censo**, Instituto Brasileiro de Geografia e Estatística (IBGE) -- Araraquara, SP, Brasil
 
-June 2022 – Dec 2022
+Jun 2022 – Dez 2022
 
 - Automatizou processos de validação de dados para o **Censo Nacional** com ferramentas analíticas, garantindo mais de 99% de integridade em conjuntos de dados demográficos
 
@@ -48,12 +50,12 @@ June 2022 – Dec 2022
 
 
 
-# Education
-## **Centro Universitário Internacional**, Bacharelado in Engenharia de Software -- Araraquara, SP, BrasilApr 2022 – Apr 2026
+# Educação
+## **Centro Universitário Internacional**, Bacharelado em Engenharia de Software -- Araraquara, SP, BrasilAbr 2022 – Abr 2026
 
 
 
-# Skills
+# Habilidades
 **Idiomas:** Inglês (B2), Português (nativo)
 
 **Linguagens de Programação:** Typescript, Java, Javascript, Python, um pouco de Haskell

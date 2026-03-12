@@ -76,3 +76,5 @@ design:
   theme: engineeringresumes
   templates:
     top_note: ""
+locale:
+  language: english

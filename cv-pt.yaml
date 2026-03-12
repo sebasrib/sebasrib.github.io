@@ -10,9 +10,9 @@ cv:
     - network: GitHub
       username: sebasrib
   sections:
-    summary:
+    Resumo:
       - Engenheiro de Software com **experiência** na entrega de soluções de **alta disponibilidade** para **100M+ usuários**. Experiência em **Node.js**, **Java** e **Python**, com foco especializado em **Microsserviços**, **IAM (Keycloak, OAuth, OIDC)** e arquitetura em nuvem **(certificações AWS e OCI)**. Combina uma forte base **analítica** — incluindo apoio à tomada de decisão com dados do **Censo Nacional do Brasil** — com o objetivo de conectar arquitetura backend complexa ao crescimento do negócio.
-    experience:
+    Experiência:
       - company: AI/R Company - Vivo Telefónica
         position: Engenheiro de Software
         date:
@@ -47,7 +47,7 @@ cv:
         highlights:
           - Automatizou processos de validação de dados para o **Censo Nacional** com ferramentas analíticas, garantindo mais de 99% de integridade em conjuntos de dados demográficos
           - Interpretou conjuntos de dados complexos para **apoiar decisões em nível nacional** e o **desenvolvimento de políticas públicas** por meio de relatórios estatísticos precisos
-    education:
+    Educação:
       - institution: Centro Universitário Internacional
         area: Engenharia de Software
         degree: Bacharelado
@@ -57,7 +57,7 @@ cv:
         location: Araraquara, SP, Brasil
         summary:
         highlights:
-    skills:
+    Habilidades:
       - label: Idiomas
         details: Inglês (B2), Português (nativo)
       - label: Linguagens de Programação
@@ -76,3 +76,5 @@ design:
   theme: engineeringresumes
   templates:
     top_note: ""
+locale:
+  language: portuguese
