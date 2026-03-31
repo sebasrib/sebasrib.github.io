@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Resume"
+lang: en-us
+---
+
+[English](/intl/en-us/cv) • [Português](/intl/pt-br/cv)
+
 - Phone: +55 17 99645 7741
 - Email: [me@sebastiao.me](mailto:me@sebastiao.me)
 - Location: São Paulo, SP, Brazil
@@ -67,3 +75,4 @@ June 2022 – Dec 2022
 **Architecture & Patterns:** Microservices, DDD (Domain-Driven Design), Clean Architecture, RESTful APIs, Functional Programming
 
 **Certifications:** AWS Certified Cloud Practitioner, OCI Certified Developer Professional, OCI Certified Data Science Professional, OCI Certified Generative AI Professional
+
