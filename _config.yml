@@ -2,7 +2,7 @@ name: ""
 title: Sebastiao Ribeiro
 tagline: Software Engineer
 url: "https://sebastiao.me"
-remote_theme: pages-themes/hacker
+remote_theme: pages-themes/hacker@v0.2.0
 author: Sebastiao Ribeiro
 github:
   is_project_page: false
