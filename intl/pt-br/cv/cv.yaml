@@ -1,14 +1,14 @@
 cv:
-  name: Sebastiao Ribeiro
+  name: Sebastião Leonardo Ribeiro Junior
   location: São Paulo, SP, Brasil
   email: me@sebastiao.me
   phone: +55-17-9-9645-7741
   website: https://sebastiao.me
   social_networks:
     - network: LinkedIn
-      username: sebasrib
+      username: sebastiaome
     - network: GitHub
-      username: sebasrib
+      username: sebastiaome
   sections:
     Resumo:
       - Engenheiro de Software com **experiência** na entrega de soluções de **alta disponibilidade** para **100M+ usuários**. Experiência em **Node.js**, **Java** e **Python**, com foco especializado em **Microsserviços**, **IAM (Keycloak, OAuth, OIDC)** e arquitetura em nuvem **(certificações AWS e OCI)**. Combina uma forte base **analítica** — incluindo apoio à tomada de decisão com dados do **Censo Nacional do Brasil** — com o objetivo de conectar arquitetura backend complexa ao crescimento do negócio.
