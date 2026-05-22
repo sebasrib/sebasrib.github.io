@@ -1,11 +1,11 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.2.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
-  name: "Sebastiao Ribeiro",
-  title: "Sebastiao Ribeiro - CV",
-  footer: context { [#emph[Sebastiao Ribeiro -- #str(here().page())\/#str(counter(page).final().first())]] },
+  name: "Sebastião Leonardo Ribeiro Junior",
+  title: "Sebastião Leonardo Ribeiro Junior - CV",
+  footer: context { [#emph[Sebastião Leonardo Ribeiro Junior -- #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [  ],
   locale-catalog-language: "pt",
   text-direction: ltr,
@@ -80,21 +80,21 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 31,
+    month: 5,
+    day: 21,
   ),
 )
 
 
-= Sebastiao Ribeiro
+= Sebastião Leonardo Ribeiro Junior
 
 #connections(
   [São Paulo, SP, Brasil],
   [#link("mailto:me@sebastiao.me", icon: false, if-underline: false, if-color: false)[me\@sebastiao.me]],
   [#link("tel:+55-17-99645-7741", icon: false, if-underline: false, if-color: false)[(17) 99645-7741]],
   [#link("https://sebastiao.me/", icon: false, if-underline: false, if-color: false)[sebastiao.me]],
-  [#link("https://linkedin.com/in/sebasrib", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/sebasrib]],
-  [#link("https://github.com/sebasrib", icon: false, if-underline: false, if-color: false)[github.com\/sebasrib]],
+  [#link("https://linkedin.com/in/sebastiaome", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/sebastiaome]],
+  [#link("https://github.com/sebastiaome", icon: false, if-underline: false, if-color: false)[github.com\/sebastiaome]],
 )
 
 

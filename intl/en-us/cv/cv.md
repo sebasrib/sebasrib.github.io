@@ -1,3 +1,5 @@
+# Sebastião Leonardo Ribeiro Junior's CV
+
 - Phone: +55 17 99645 7741
 - Email: [me@sebastiao.me](mailto:me@sebastiao.me)
 - Location: São Paulo, SP, Brazil
@@ -49,7 +51,8 @@ June 2022 – Dec 2022
 
 
 # Education
-## **Centro Universitário Internacional**, BS in Software Engineering -- Araraquara, SP, BrazilApr 2022 – Apr 2026
+## **Centro Universitário Internacional**, BS in Software Engineering -- Araraquara, SP, Brazil
+Apr 2022 – Apr 2026
 
 
 
