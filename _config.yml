@@ -1,17 +1,17 @@
 name: ""
-title: Sebastiao Ribeiro
+title: Sebastião Leonardo Ribeiro Junior
 tagline: Software Engineer
 url: "https://sebastiao.me"
 remote_theme: pages-themes/hacker@v0.2.0
-author: Sebastiao Ribeiro
+author: Sebastião Leonardo Ribeiro Junior
 github:
   is_project_page: false
 locale: en_US
 social:
-  name: Sebastiao Ribeiro
+  name: Sebastião Leonardo Ribeiro Junior
   links:
-    - https://www.linkedin.com/in/sebasrib
-    - https://github.com/sebasrib
+    - https://www.linkedin.com/in/sebastiaome
+    - https://github.com/sebastiaome
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
